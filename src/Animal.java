@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Animal {
+public class Animal {
+
+    protected String species;
+
+
+    public void makeSound(){
+        System.out.println("animal sound ");
+    }
 }
